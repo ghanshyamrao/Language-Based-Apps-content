@@ -1,0 +1,2123 @@
+{
+    "about": {
+        "smallTitle": "About Us",
+        "title": "About GAHQ",
+        "description1": "With over 30 years in the construction industry and more than $200 million in completed development projects across the Greater Montreal area, GAHQ was built on deep roots in Quebec's residential and commercial property sectors. We've worked throughout the North Shore, South Shore, West Island, and everywhere in between.",
+        "description2": "GAHQ was born from what we kept seeing: homeowners overwhelmed by basic repairs, unsure where to turn for honest advice, and stuck in endless contractor runarounds. We knew there had to be a better way — one that made homeownership easier, not harder.",
+        "description3": "That's why we created GAHQ: a platform that connects you with a trusted network of certified contractors, reliable service providers, and insurance claims experts. When you become a member, you gain access to this entire ecosystem.",
+        "description4": "Our team includes licensed building professionals, AMF-certified insurance advisors, and specialists in home damage assessment, post-sinister repairs, and claim negotiations. Whether you need help filing an insurance claim, managing renovations, or just keeping your home in shape, we're here to support you — with integrity, efficiency, and the knowledge that comes from decades on the ground."
+      },
+      "auth": {
+        "login": {
+          "title": "GAHQ Login",
+          "subtitle": "Login to your account",
+          "form": {
+            "email": {
+              "label": "Email Address",
+              "placeholder": "Enter email"
+            },
+            "password": {
+              "label": "Password",
+              "placeholder": "***************"
+            },
+            "submit": "Login",
+            "forgotPassword": "Forgot Password?",
+            "newUser": "New to GAHQ.CA?",
+            "signUp": "Sign up for free",
+            "rememberMe": "Remember me",
+            "noAccount": "Don't have an account?"
+          }
+        },
+        "register": {
+          "title": "Join GAHQ for free",
+          "subtitle": "Sign up now, it's fast and free",
+          "form": {
+            "profileType": {
+              "title": "Choose your profile type",
+              "member": {
+                "title": "Member Profile",
+                "description": "Join as a member if you own or rent a property."
+              },
+              "partner": {
+                "title": "Partner Profile",
+                "description": "Join as a Partner if you would like to showcase your retail store products, renovation services or are a contractor."
+              }
+            },
+            "email": {
+              "label": "Email Address",
+              "placeholder": "Enter email"
+            },
+            "password": {
+              "label": "Password",
+              "placeholder": "***************"
+            },
+            "confirmPassword": {
+              "label": "Confirm Password",
+              "placeholder": "***************"
+            },
+            "agreeTerms": "I agree to the GAHQ Terms of Service & Privacy Notice.",
+            "submit": "Create an account",
+            "existingUser": "Already have an account?",
+            "login": "Sign In"
+          }
+        },
+        "forgotPassword": {
+          "title": "Forgot Password",
+          "success": "A password reset link was sent to your email. If it's not in your inbox, be sure to check your spam folder.",
+          "error": "Failed to send reset link",
+          "subtitle": "Enter your email address below to receive instrcutions to reset your password.",
+          "form": {
+            "email": {
+              "label": "Email Address",
+              "placeholder": "Enter email"
+            },
+            "submit": "Reset Password",
+            "newUser": "New to GAHQ.CA?",
+            "signUp": "Sign up for free"
+          },
+          "modal": {
+            "title": "Forgot Password",
+            "checkEmail": "Also, double-check that the email you entered matches the one linked to your GAHQ account.",
+            "backToLogin": "Back to Login"
+          }
+        },
+        "resetPassword": {
+          "title": "Reset Password",
+          "success": "Password reset successfully",
+          "error": "Failed to reset password",
+          "subtitle": "Enter your password below to reset your password.",
+          "form": {
+            "newPassword": {
+              "label": "New Password",
+              "placeholder": "***************"
+            },
+            "confirmPassword": {
+              "label": "Confirm Password",
+              "placeholder": "***************"
+            },
+            "submit": "Reset Password",
+            "newUser": "New to GAHQ.CA?",
+            "signUp": "Sign up for free"
+          }
+        },
+        "errors": {
+          "email": {
+            "required": "Email is required",
+            "invalid_string": "Please enter a valid email address"
+          },
+          "password": {
+            "required": "Password is required"
+          },
+          "newPassword": {
+            "required": "New password is required"
+          },
+          "userType": {
+            "required": "User type is required"
+          },
+          "confirmPassword": {
+            "required": "Confirm password is required"
+          },
+          "too_small": "This field is required",
+          "minLength": "Must be at least {{min}} characters",
+          "maxLength": "Must be no more than {{max}} characters",
+          "min": "Must be at least {{min}}",
+          "max": "Must be no more than {{max}}",
+          "pattern": "Password must include at least one uppercase letter, one lowercase letter, one number, and one special character",
+          "passwordMatch": "Passwords do not match",
+          "agreeTerms": "You must agree to the Terms & Conditions",
+          "invalid": "Please enter a valid value",
+          "invalidFormat": "Invalid format",
+          "tooShort": "Too short",
+          "tooLong": "Too long",
+          "invalidPhone": "Please enter a valid phone number",
+          "invalidUrl": "Please enter a valid URL",
+          "invalidDate": "Please enter a valid date",
+          "fileRequired": "Please select a file",
+          "fileTooLarge": "File size is too large",
+          "fileTypeNotSupported": "File type not supported"
+        },
+        "clientReviews": {
+          "count": "1.5K+",
+          "text": "Client Reviews"
+        },
+        "passwordStrength": {
+          "weak": "Weak password",
+          "medium": "Medium password",
+          "strong": "Strong password",
+          "requirements": "Password must be at least 8 characters and include uppercase, lowercase, number, and special character",
+          "validation": {
+            "tooLong": "Password must be less than 20 characters",
+            "tooShort": "Password must be at least 8 characters",
+            "missingSpecialChar": "Password must contain at least one special character",
+            "needsImprovement": "You need to add special letters, numbers or characters for a strong password",
+            "mediumStrength": "Your password is medium strength",
+            "strongPassword": "Your password is strong"
+          }
+        }
+      },
+      "common": {
+        "common": {
+          "loading": "Loading...",
+          "error": "An error occurred",
+          "success": "Success",
+          "save": "Save",
+          "cancel": "Cancel",
+          "delete": "Delete",
+          "edit": "Edit",
+          "noConsecutiveSpaces": "No consecutive spaces allowed",
+          "noLeadingSpace": "No leading space allowed",
+          "pageNotFound": "Page Not Found",
+          "pageNotFoundDesc": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+          "backToDashboard": "Back to Dashboard",
+          "backToHome": "Back to Home"
+        },
+        "auth": {
+          "login": "Login",
+          "logout": "Logout",
+          "register": "Register",
+          "email": "Email",
+          "password": "Password"
+        },
+        "notFound": {
+          "title": "404",
+          "heading": "Page Not Found",
+          "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+          "dashboard": "Back to Dashboard",
+          "login": "Back to Login"
+        },
+        "unauthorized": {
+          "title": "401",
+          "heading": "Unauthorized",
+          "description": "Sorry, but you are not authorized to view this page.",
+          "home": "Back to Home",
+          "login": "Back to Login"
+        }
+      },
+      "contact": {
+        "contact": {
+          "title": "Contact Us",
+          "form": {
+            "firstName": {
+              "label": "First Name",
+              "placeholder": "Enter first name"
+            },
+            "lastName": {
+              "label": "Last Name",
+              "placeholder": "Enter last name"
+            },
+            "email": {
+              "label": "Email",
+              "placeholder": "Enter email"
+            },
+            "message": {
+              "label": "Message",
+              "placeholder": "Enter your message"
+            },
+            "submit": {
+              "sending": "Sending...",
+              "send": "Send Message"
+            }
+          },
+          "errors": {
+            "firstName": {
+              "required": "First name is required",
+              "maxLength": "First name must be less than 50 characters"
+            },
+            "lastName": {
+              "required": "Last name is required",
+              "maxLength": "Last name must be less than 50 characters"
+            },
+            "email": {
+              "required": "Email is required",
+              "invalid_string": "Please enter a valid email address"
+            },
+            "message": {
+              "required": "Message is required",
+              "minLength": "Message must be at least 5 characters long",
+              "maxLength": "Message must be less than 3000 characters"
+            }
+          },
+          "reviews": {
+            "count": "1.5K+",
+            "text": "Client Reviews"
+          },
+          "success": {
+            "title": "Success",
+            "message": "Your message has been sent!"
+          }
+        }
+      },
+      "damageRepairRebuild": {
+        "damageRepairRebuild": {
+          "title": "Disaster Restoration Services",
+          "description": "Professional damage repair and rebuild services for residential and commercial properties across Quebec. Our certified contractors ensure quality restoration work that meets insurance requirements and building codes.",
+          "services": {
+            "title": "Our Services",
+            "waterDamage": {
+              "title": "Water Damage Restoration",
+              "description": "Complete water damage restoration including extraction, drying, and repair services."
+            },
+            "fireDamage": {
+              "title": "Fire & Smoke Damage",
+              "description": "Professional fire and smoke damage restoration with certified contractors."
+            },
+            "stormDamage": {
+              "title": "Storm Damage Repair",
+              "description": "Emergency storm damage repair and structural restoration services."
+            }
+          },
+          "whyChoose": {
+            "title": "Why Choose GAHQ",
+            "certified": {
+              "title": "Certified Contractors",
+              "description": "All our contractors are licensed, insured, and certified."
+            },
+            "insurance": {
+              "title": "Insurance Coordination",
+              "description": "We work directly with your insurance company to streamline the process."
+            },
+            "quality": {
+              "title": "Quality Guarantee",
+              "description": "All work is guaranteed and meets Quebec building standards."
+            }
+          }
+        }
+      },
+      "disasterRestoration": {
+        "disasterRestoration": {
+          "title": "Disaster Restoration Services",
+          "description1": "Let's face it — when your home or rental property is damaged, managing repairs shouldn't become your full-time job. GAHQ offers full-service damage insurance repair solutions across Quebec, specializing in both residential and commercial property restoration. Whether you're dealing with water damage, smoke and fire restoration, wind or hail damage, flood cleanup, or roof leaks, our certified contractors are ready to step in quickly and professionally.",
+          "description2": "We coordinate with your insurer, provide accurate insurance repair estimates, and handle everything from emergency board-ups and debris removal to structural rebuilding and finishing work. Our licensed builders, electricians, plumbers, and roofing professionals are vetted, insured, and familiar with Quebec's building codes — ensuring your repairs meet both insurance policy requirements and provincial regulations.",
+          "description3": "If you're overwhelmed by managing timelines, multiple quotes, or conflicting contractor opinions, GAHQ is your single point of contact. We reduce project delays, avoid cost overruns, and give you a dedicated claims repair project manager to ensure quality from start to finish.",
+          "description4": "Whether you're a homeowner, property manager, or business owner, GAHQ is here to help you get your property back to normal as quickly and efficiently as possible."
+        }
+      },
+      "faq": {
+        "faqList": {
+          "title": "Frequently Asked Questions",
+          "question1": {
+            "questions": "What kind of insurance claims can GAHQ help with?",
+            "answers": "We support damage-related claims for residential and commercial properties — including water, fire, storm, and more."
+          },
+          "question2": {
+            "questions": "Do you replace my insurance company?",
+            "answers": "No. We don't sell insurance — we represent and guide you through the process to make sure your claim is handled properly."
+          },
+          "question3": {
+            "questions": "I already filed a claim. Can you still help?",
+            "answers": "Yes. We can step in at any stage of your claim — even if it's already in progress or delayed."
+          },
+          "question4": {
+            "questions": "Do you offer services for renters too?",
+            "answers": "Absolutely. We help renters understand their insurance coverage, deal with damage issues, or request approved repairs."
+          },
+          "question5": {
+            "questions": "What areas of Quebec do you serve?",
+            "answers": "We provide service across Quebec, with bilingual advisors and a vetted network of contractors in all major regions."
+          },
+          "question6": {
+            "questions": "Are your contractors licensed and insured?",
+            "answers": "Yes. All of our builders and repair partners are certified, fully insured, and meet Quebec's construction standards."
+          },
+          "question7": {
+            "questions": "Can I use GAHQ even if I don't have an insurance claim?",
+            "answers": "Of course! We offer renovation and maintenance services for any homeowner — claim or no claim."
+          },
+          "question8": {
+            "questions": "How do I know if my repair is covered by insurance?",
+            "answers": "We'll review your policy and help you determine if your issue qualifies before you file — saving you time and stress."
+          },
+          "question9": {
+            "questions": "What types of renovations do you offer?",
+            "answers": "We handle everything from kitchen and bathroom upgrades to aging-in-place modifications and exterior work."
+          },
+          "question10": {
+            "questions": "How do I get started?",
+            "answers": "Create your free account online, or contact us to speak directly with a bilingual advisor."
+          },
+          "question11": {
+            "questions": "Who can become a GAHQ member?",
+            "answers": "Anyone in Quebec — whether you own one property or manage dozens. Renters and first-time buyers are welcome too."
+          }
+        }
+      },
+      "footer": {
+        "bigTitle": "Your Property. Your Policy. Your Peace-of-mind.",
+        "footerDescription": "When disaster strikes, call us first and let us handle it all for you. ",
+        "footerCopyrightText": "Copyright 2025 Gestion D'assurance Habitation du Québec. All rights Reserved. ",
+        "homepage": "Homepage",
+        "aboutUs": "About Us",
+        "services": "Services",
+        "faq": "FAQ",
+        "copyright": "Copyright 2025 Gestion D'assurance Habitation du Québec. All rights Reserved. ",
+        "login": "Login",
+        "contactUs": "Contact Us",
+        "columns": {
+          "insuranceServices": {
+            "title": "Insurance Services",
+            "links": {
+              "claimConsultation": "Public Claim Adjusting Services",
+              "damageRepair": "Disaster Restoration services",
+              "howItWorks": "How it Works?",
+              "createAccount": "Create a Free account"
+            }
+          },
+          "membershipBenefits": {
+            "title": "Membership Benefits",
+            "links": {
+              "projectHub": "Project Hub",
+              "discountClub": "Discount Club",
+              "gahqDollars": "GAHQ-Dollars",
+              "askExperts": "Ask The Experts",
+              "satisfactionGuarantee": "100% Satisfaction Guarantee "
+            }
+          },
+          "aboutUs": {
+            "title": "About Us",
+            "links": {
+              "whoIsGahq": "Our Story",
+              "whoCanUse": "Who can use GAHQ?",
+              "pricing": "Pricing",
+              "faq": "FAQ"
+            }
+          },
+          "legal": {
+            "title": "Legal",
+            "links": {
+              "privacyPolicy": "Privacy Policy",
+              "termsConditions": "Terms & Conditions",
+              "siteMap": "Site Map",
+              "refundPolicy": "Refund Policy"
+            }
+          }
+        }
+      },
+      "header": {
+        "home": "Homepage",
+        "dashboard": "Dashboard",
+        "about": "About",
+        "maintenanceReno": "Home Maintenance & Renovations",
+        "insuranceConsultation": "Insurance Consultation",
+        "faq": "FAQ",
+        "whoWeHelp": "Who We Help",
+        "contact": "Contact Us",
+        "login": "Login",
+        "register": "Sign up",
+        "ourServices": "Our Services",
+        "pageHeaders": {
+          "member": {
+            "renoExpert": "Ask The Experts Request",
+            "claimsCare": "ClaimsCare™ Request",
+            "projectHub": "Projects Hub Request",
+            "savingVault": "Discounts Club",
+            "renoRewards": "GAHQ-Dollars",
+            "addAddress": "Add Address",
+            "subscription": "Your Subscription",
+            "settings": "Settings",
+            "help": "Help & Support",
+            "defaultArea": "Prestige Member Area",
+            "defaultAreaFree": "Starters Member Area",
+            "defaultAreaPro": "Pro Member Area",
+            "defaultAreaPlatinum": "Platinum Member Area",
+            "defaultAreaPlatine": "Platine Member Area",
+            "defaultAreaGratuit": "Gratuit Member Area"
+          },
+          "partner": {
+            "promoBuilder": "GAHQ Promo Builder",
+            "couponLookup": "Coupon Lookup Tool",
+            "userOffers": "User Offers",
+            "defaultArea": "Partner Tools & Features",
+            "settings": "Settings",
+            "help": "Help & Support"
+          }
+        }
+      },
+      "help": {
+        "help": {
+          "title": "Help & Support",
+          "search": {
+            "placeholder": "Search for help topics...",
+            "button": "Search"
+          },
+          "categories": {
+            "title": "Help Categories",
+            "account": "Account & Profile",
+            "services": "Services & Bookings",
+            "payments": "Payments & Billing",
+            "technical": "Technical Support"
+          },
+          "faq": {
+            "title": "Frequently Asked Questions",
+            "loadMore": "Load More Questions"
+          },
+          "contact": {
+            "title": "Contact Support",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Message",
+            "submit": "Send Message",
+            "phone": "Phone Support",
+            "hours": "Available 24/7"
+          },
+          "feedback": {
+            "title": "Send Feedback",
+            "rating": "Rate your experience",
+            "comment": "Your comments",
+            "submit": "Submit Feedback"
+          },
+          "comingSoon": "This page will be available soon."
+        }
+      },
+      "homepage": {
+        "common": {
+          "loading": "Loading...",
+          "error": "An error occurred",
+          "success": "Success",
+          "save": "Save",
+          "cancel": "Cancel",
+          "delete": "Delete",
+          "edit": "Edit"
+        },
+        "auth": {
+          "login": "Login",
+          "logout": "Logout",
+          "register": "Register",
+          "email": "Email",
+          "password": "Password"
+        },
+        "homepage": {
+          "heroSection": {
+            "title": "ghashyamrao",
+            "subTitle": "From handling small repairs and home maintenance to managing large, insurable casualties, GAHQ makes owning property in Quebec a breeze.",
+            "features": {
+              "feature1": {
+                "key": "Licensed Public Claims Adjusters",
+                "value": "When disaster strikes, call us first and let us handle everything."
+              },
+              "feature2": {
+                "key": "Verified repair & renovation professionals",
+                "value": "Exclusive access to our network of vetted experts."
+              },
+              "feature3": {
+                "key": "Exclusive Discounts & Benefits",
+                "value": "A GAHQ membership can save you thousands of dollars every year."
+              }
+            },
+            "button": "SIGN-UP FREE NOW!",
+            "buttonLink": "/register",
+            "clientReviews": "Client Reviews"
+          },
+          "aboutSection": {
+            "title": "Who is Gestion d'Assurance-Habitation du Québec?",
+            "button": "Learn more about GAHQ",
+            "description": "GAHQ is a Quebec-based company founded by experienced builders and licensed public claim adjusters. Our mission is simple: to give our members complete peace of mind when it comes to property ownership.",
+            "subsections": {
+              "insuranceConsultations": {
+                "title": "Insurance Consultations & Claims Support",
+                "description": "Have a claim or not sure if you should even make one? We can help. GAHQ's certified advisors provide expert insurance consultation to guide you through damage insurance claims and questions. Whether you own one, several dozen or hundreds of properties, we make sure your claim is always handled fairly and nothing gets missed.",
+                "button": "Learn more about Insurance Claim Support",
+                "buttonLink": "/homeowner-insurance-consultations-and-claims-support"
+              },
+              "damageRepair": {
+                "title": "Disaster Restoration Services",
+                "description": "Lets face it, after disaster strikes, you have other things to do than to manage a home renovation project. Our certified team of independent builders and contractors can work directly with your insurance company to handle the full scope of your claim-related repairs. Rest easy while GAHQ takes care of it all, start to finish, with quality you can count on.",
+                "button": "Learn more about Damage Services",
+                "buttonLink": "/disaster-restoration-services"
+              },
+              "projectHub": {
+                "title": "The GAHQ Projects Hub",
+                "description": "Not everything is an emergency — sometimes it's just time for an upgrade. The GAHQ Project Hub is also your direct line to certified renovation contractors across Quebec. Just share your project goals, and we'll match you with trusted professionals offering the best prices, products, and timelines.",
+                "button": "Learn more about the GAHQ Projects Hub",
+                "buttonLink": "/membership-benefits/projects-hub"
+              }
+            }
+          },
+          "toolsServicesSection": {
+            "title": "Our Tools & Services",
+            "description": "Become a GAHQ member to get access to the ultimate ecosystem for Quebec property owners.",
+            "services": {
+              "claimsAssistance": {
+                "title": "Licensed Public Claims Adjusters",
+                "description": "We handle complex insurance claims and negotiations so you don't have to deal with your insurer directly.",
+                "button": "Explore Claims Help",
+                "buttonLink": "/homeowner-insurance-consultations-and-claims-support"
+              },
+              "certifiedServices": {
+                "title": "Certified Service Providers",
+                "description": "Get access to our extensive network of contractors and service providers across all of Quebec.",
+                "button": "Explore Repair Services",
+                "buttonLink": "/disaster-restoration-services"
+              },
+              "projectHub": {
+                "title": "GAHQ Project Hub",
+                "description": "Tell us a little about your project and let our team get you reliable estimates with clear, transparent pricing. No project is too large or too small.",
+                "button": "Explore Project Hub",
+                "buttonLink": "/membership-benefits/projects-hub"
+              },
+              "askExperts": {
+                "title": "Ask the Experts Service",
+                "description": "Need some home maintenance advice? Get instant answers from a team of home maintenance & renovation experts.",
+                "button": "Ask us a question",
+                "buttonLink": "/membership-benefits/ask-the-experts"
+              },
+              "discountsClub": {
+                "title": "The Discounts Club",
+                "description": "Become a GAHQ member and unlock exclusive discounts from our hundreds of partners - not found anywhere else.",
+                "button": "Explore Exclusive Discounts",
+                "buttonLink": "/membership-benefits/discounts-club"
+              },
+              "renoRewards": {
+                "title": "GAHQ-Dollars",
+                "description": "An exclusive benefits program that gives you up to $1,000 annually towards future damages and repairs.",
+                "button": "Explore GAHQ-Dollars",
+                "buttonLink": "/membership-benefits/renorewards-program"
+              },
+              "satisfactionGuarantee": {
+                "title": "100% Satisfaction Guarantee",
+                "description": "We stand behind our service, because your trust means everything.",
+                "button": "Explore our Satisfaction Guarantee",
+                "buttonLink": "/membership-benefits/satisfaction-guarantee"
+              }
+            }
+          },
+          "whoWeHelpSection": {
+            "title": "Who Can Become a GAHQ Member?",
+            "description": "Whether you own one property, or a hundred. Whether you are renting or planning to purchase a new home. GAHQ simplifies home ownership.",
+            "memberTypes": {
+              "homeowners": {
+                "title": "Homeowners",
+                "description": "We help homeowners navigate insurance claims, get repairs done right, and keep their property in top condition.",
+                "button": "See how we help homeowners",
+                "buttonLink": "/who-we-help#homeowners",
+                "linkId": "homeowners"
+              },
+              "landlords": {
+                "title": "Landlords",
+                "description": "From rental property repairs to claim disputes, we support landlords with reliable service and clear insurance guidance.",
+                "button": "See how we support landlords",
+                "buttonLink": "/who-we-help#landlords",
+                "linkId": "landlords"
+              },
+              "smallBusiness": {
+                "title": "Small Businesses",
+                "description": "Protect your commercial property with expert claim support, certified repairs, and ongoing maintenance for business continuity.",
+                "button": "See how we help business owners",
+                "buttonLink": "/who-we-help#small-businesses",
+                "linkId": "small-businesses"
+              },
+              "firstTimeBuyers": {
+                "title": "First-Time Buyers",
+                "description": "New to homeownership? We guide you through coverage, claims, repairs, and renovations — with clarity and care.",
+                "button": "Learn about first-time buyer support",
+                "buttonLink": "/who-we-help#first-time-buyers",
+                "linkId": "first-time-buyers"
+              },
+              "renters": {
+                "title": "Renters",
+                "description": "Get help understanding renters' insurance, resolving landlord-related damage claims, or requesting approved repairs with ease.",
+                "button": "See how we help renters in Quebec",
+                "buttonLink": "/who-we-help#renters",
+                "linkId": "renters"
+              },
+              "seniors": {
+                "title": "Seniors",
+                "description": "We offer seniors respectful, step-by-step help with home insurance, repairs, aging-in-place upgrades, and more.",
+                "button": "Learn about services for seniors",
+                "buttonLink": "/who-we-help#seniors",
+                "linkId": "seniors"
+              }
+            }
+          },
+          "faqSection": {
+            "title": "Frequently Asked Questions",
+            "seeMore": "See more FAQ's",
+            "faqs": [
+              {
+                "question": "What kind of insurance claims can GAHQ help with?",
+                "answer": "We support damage-related claims for residential and commercial properties — including water, fire, storm, and more.",
+                "button": "Learn more",
+                "buttonLink": "/frequently-asked-questions"
+              },
+              {
+                "question": "Do you replace my insurance company?",
+                "answer": "No. We don't sell insurance — we represent and guide you through the process to make sure your claim is handled properly.",
+                "button": "Learn more",
+                "buttonLink": "/frequently-asked-questions"
+              },
+              {
+                "question": "I already filed a claim. Can you still help?",
+                "answer": "Yes. We can step in at any stage of your claim — even if it's already in progress or delayed.",
+                "button": "Learn more",
+                "buttonLink": "/frequently-asked-questions"
+              },
+              {
+                "question": "Can I use GAHQ even if I don't have an insurance claim?",
+                "answer": "Of course! We offer renovation and maintenance services for any homeowner — claim or no claim.",
+                "button": "Learn more",
+                "buttonLink": "/frequently-asked-questions"
+              },
+              {
+                "question": "Who can become a GAHQ member?",
+                "answer": "Anyone in Quebec — whether you own one property or manage dozens. Renters and first-time buyers are welcome too.",
+                "button": "Learn more",
+                "buttonLink": "/frequently-asked-questions"
+              },
+              {
+                "question": "Are your contractors licensed and insured?",
+                "answer": "Yes. All of our builders and repair partners are certified, fully insured, and meet Quebec's construction standards.",
+                "button": "Learn more",
+                "buttonLink": "/frequently-asked-questions"
+              }
+            ]
+          },
+          "insights": {
+            "title": "Did you know?",
+            "description": "All you need to know about home insurance, renovations & repair costs.",
+            "cards": [
+              {
+                "title": "The average home price in Quebec reached $520,800 in March 2025 — up 8.4% year-over-year.",
+                "description": "According to Nesto's Housing Market Outlook, the cost of homeownership in Quebec continues to rise sharply. With higher purchase prices come greater risks and responsibilities. GAHQ helps protect your investment by ensuring your property is well maintained, insured properly, and repaired by certified professionals when needed.",
+                "source": "Nesto.ca – Quebec Housing Market Outlook",
+                "sourceLink": "https://www.nesto.ca/mortgage-basics/quebec-housing-market-outlook/"
+              },
+              {
+                "title": "Annual Home Maintenance Costs Can Exceed $5,000",
+                "description": "Homeowners are advised to spend 1% of their home's value per year on upkeep — around $5,000 for an average Quebec home. As Scotiabank explains, ignoring regular maintenance can lead to costly issues down the line. GAHQ offers preventative maintenance plans tailored to Quebec's climate, helping homeowners avoid emergencies and stretch their investment with proactive care.",
+                "source": "Scotiabank – Home Maintenance Budget Guide",
+                "sourceLink": "https://www.scotiabank.com/ca/en/personal/advice-plus/features/posts.how-much-should-i-budget-for-home-maintenance-costs.html"
+              },
+              {
+                "title": "Trust in Contractors Remains a Major Concern",
+                "description": "70% of Canadians say they struggle to find trustworthy contractors for renovations over $5,000. A recent Fenestration Review survey shows a widespread lack of confidence in the renovation industry. GAHQ solves this with a vetted network of licensed builders and service providers — so our clients never have to gamble on quality or reliability.",
+                "source": "Apciq.ca - Survey on Buygin & Selling Intentions in Quebec",
+                "sourceLink": "https://apciq.ca/en/unveiling-of-the-results-of-a-survey-on-the-buying-and-selling-intentions-in-quebecs-real-estate-sector"
+              },
+              {
+                "title": "Significant Portion of Homes Require Repairs",
+                "description": "Nearly 1 in 4 homes in Canada need minor repairs, and 7.3% require major work. Statistics Canada highlights the ongoing maintenance burden for Canadian homeowners. GAHQ helps reduce that burden by offering full-service repair, renovation, and inspection options — so issues are caught early and resolved right the first time.",
+                "source": "Statistics Canada – Household Repair Needs Report"
+              },
+              {
+                "title": "Home insurance claims can impact premiums for 5 to 7 years.",
+                "description": "As reported by Rates.ca, filing a home insurance claim in Canada can lead to increased premiums that persist for several years. This long-term financial impact underscores the importance of understanding your policy and exploring options like claim forgiveness programs. GAHQ assists clients in navigating the claims process to minimize potential premium hikes.",
+                "source": "rates.ca"
+              },
+              {
+                "title": "Most Homeowners Are Underinsured",
+                "description": "Nearly 80% of Canadian homeowners are either uninsured or underinsured. The Insurance Business Canada site reports that a shocking number of Canadians lack full insurance protection — often without realizing it. That's where GAHQ steps in. Our AMF-certified advisors help you understand what your coverage actually includes and advocate for you when it matters most.",
+                "source": "Insurance Business Canada – CAFII study."
+              }
+            ]
+          },
+          "testimonials": {
+            "title": "With over 2,500 happy members, we must be doing something right.",
+            "button": "Create a Free Account Now!",
+            "buttonLink": "/register",
+            "slides": [
+              {
+                "name": "Émilie Charbonneau",
+                "role": "First-Time Owner",
+                "quote": "As a first-time homeowner, I had no idea how confusing a home insurance claim could be. GAHQ made everything clear and handled my repair with total professionalism."
+              },
+              {
+                "name": "Marc-André Desrosiers",
+                "role": "AirBnB Owner",
+                "quote": "After water damage in my rental unit, it took one call to GAHQ to handle everything from contacting my insurance company and scheduling trusted contractors on-site within the same day. Fast, reliable, and bilingual."
+              },
+              {
+                "name": "Claudine Robitaille",
+                "role": "Commercial Property Owner",
+                "quote": "Managing multiple buildings is tough — especially when claims drag on. GAHQ took over communication with my insurer and coordinated all the repairs. Their Project Portal is such a time and money saver. I never have to shop around anymore to find the best prices, products or services."
+              }
+            ]
+          }
+        }
+      },
+      "insuranceClaim": {
+        "insurance": {
+          "subTitle": "Public Claim Adjusting Services",
+          "title": "Insurance Consultations & Claims Support",
+          "description1": "Navigating an insurance claim can be stressful — especially if you're unsure whether to file, what's actually covered, or how to deal with your insurer. That's why we created ClaimsCare™ by GAHQ — a tiered support system designed to simplify the process for Quebec homeowners, landlords, renters, and small business owners.",
+          "description2": "Whether you're dealing with water damage, fire loss, storm-related structural issues, or flooding, we help you determine if your situation qualifies under your home or commercial insurance policy. Many policyholders don't fully understand their deductibles, exclusions, or what documentation is required — and that confusion can lead to delays, underpaid claims, or outright denials.",
+          "description3": "GAHQ bridges the gap between property owners and insurers. Through ClaimsCare™, available in Basic, Pro, and Platinum tiers, we review your policy, advise you before you file, and advocate for you every step of the way — from damage inspection to claim escalation and contractor coordination.",
+          "description4": "If your claim has been denied, delayed, or reduced, our team challenges it on your behalf. We also help gather supporting documents, write clear loss descriptions, and produce certified repair quotes through our contractor network.",
+          "description5": "When your property is on the line, ClaimsCare™ ensures your claim is handled clearly, fairly, and fast — with real experts, not red tape.",
+          "content1": {
+            "title": "Damage Insurance Services",
+            "description1": "Let's face it — when your home or rental property is damaged, managing repairs shouldn't become your full-time job. GAHQ offers full-service damage insurance repair solutions across Quebec, specializing in both residential and commercial property restoration. Whether you're dealing with water damage, smoke and fire restoration, wind or hail damage, flood cleanup, or roof leaks, our certified contractors are ready to step in quickly and professionally.",
+            "description2": "We coordinate with your insurer, provide accurate insurance repair estimates, and handle everything from emergency board-ups and debris removal to structural rebuilding and finishing work. Our licensed builders, electricians, plumbers, and roofing professionals are vetted, insured, and familiar with Quebec's building codes — ensuring your repairs meet both insurance policy requirements and provincial regulations.",
+            "description3": "If you're overwhelmed by managing timelines, multiple quotes, or conflicting contractor opinions, GAHQ is your single point of contact. We reduce project delays, avoid cost overruns, and give you a dedicated claims repair project manager to ensure quality from start to finish.",
+            "description4": "Whether it's your primary residence, rental unit, or small business property, we restore your space with efficiency, transparency, and care — so you can get back to what matters."
+          },
+          "content2": {
+            "title": "Insurance Claims Help",
+            "description": "Filing a home insurance claim can be overwhelming — especially if you're facing delays, denials, or unclear policy terms. GAHQ offers expert claims assistance for homeowners in Quebec, guiding you through the entire property damage claim process. Our AMF-certified advisors manage claim documentation, insurer communication, and settlement negotiations so you don't have to. Whether your issue involves water damage, fire loss, theft, or storm-related repairs, we help ensure your home insurance claim is handled fairly and efficiently. We also assist with appeals, claim follow-ups, and accurate repair estimates for faster approvals."
+          }
+        }
+      },
+      "landing": {
+        "landing": {
+          "hero": {
+            "title": "Welcome to GAHQ",
+            "subtitle": "Your Trusted Home Services Platform",
+            "cta": "Get Started"
+          },
+          "features": {
+            "title": "Why Choose GAHQ",
+            "trusted": {
+              "title": "Trusted Network",
+              "description": "Connect with certified contractors and reliable service providers"
+            },
+            "support": {
+              "title": "24/7 Support",
+              "description": "Get help whenever you need it"
+            },
+            "insurance": {
+              "title": "Insurance Claims",
+              "description": "Expert assistance with insurance claims and repairs"
+            }
+          },
+          "testimonials": {
+            "title": "What Our Members Say",
+            "readMore": "Read More"
+          },
+          "card": {
+            "title1": "GAHQ simplifies homeownership by managing your maintenance, renovations, and insurance claims — all in one place.",
+            "title2": "GAHQ simplifies homeownership by managing your maintenance, renovations, and insurance claims — all in one place.",
+            "title3": "GAHQ simplifies homeownership by managing your maintenance, renovations, and insurance claims — all in one place."
+          },
+          "cta": {
+            "title": "Ready to Get Started?",
+            "description": "Join our community of satisfied homeowners",
+            "button": "Sign Up Now"
+          },
+          "propertyOwnershipCTA": {
+            "text": "Ready to simplify your property ownership?",
+            "button": "Get Started Free"
+          },
+          "insurancePlansTable": {
+            "featuresTitle": "Features",
+            "subtitle": "ClaimsCare™ Plans",
+            "description": "Choose the right coverage for your needs.",
+            "header": "Our ClaimsCare™ Plans",
+            "features": [
+              "Insurance policy review & personalized coverage advice",
+              "Phone-based claim assessment & guidance",
+              "Step-by-step assistance to open your claim",
+              "Re-evaluation of denied or underpaid claims",
+              "Referral to certified, trusted repair contractors",
+              "Full-service claim handling directly with your insurer",
+              "On-site visual assessment and claims consultation",
+              "Full damage documentation: losses, photos, invoices",
+              "End-to-end contractor and repair coordination",
+              "24/7 emergency dispatch and damage assessment",
+              "Priority scheduling for repairs and rebuilds",
+              "Legal support and coordination if needed",
+              "Coverage for up to 10 properties under one account",
+              "A dedicated public claims adjuster"
+            ],
+            "plans": [
+              {
+                "name": "ClaimsCare™ Basic",
+                "price": "Basic Services",
+                "button": "Subscribe now"
+              },
+              {
+                "name": "ClaimsCare™ Pro",
+                "price": "Premium Services",
+                "button": "Subscribe now"
+              },
+              {
+                "name": "ClaimsCare™ Prestige",
+                "price": "Our Best Plan",
+                "button": "Subscribe now"
+              }
+            ]
+          }
+        }
+      },
+      "maintenanceReno": {
+        "maintenanceReno": {
+          "smallTitle": "Maintenance & Renos",
+          "title": "Home Maintenance & Renovations",
+          "description1": "Not everything is a disaster — sometimes your property just needs attention, updates, or a fresh start. GAHQ provides year-round home maintenance services and fully customized residential renovation solutions across Quebec. From small upgrades to major remodels, we help homeowners, landlords, and property managers maintain and improve their spaces with confidence.",
+          "description2": "Our seasonal maintenance plans are designed to prevent problems before they start — including winterizing homes, gutter cleaning, HVAC tune-ups, and foundation checks. We also offer pre-sale inspections, exterior caulking, attic insulation upgrades, and emergency prevention work like sump pump testing and backup generator installation.",
+          "description3": "Looking to renovate? Whether you need a kitchen remodel, bathroom renovation, basement finishing, or an open-concept layout redesign, GAHQ works with certified, insured contractors who deliver exceptional workmanship. We manage permits, timelines, and budgets — so you don't have to juggle multiple quotes or unreliable tradespeople.",
+          "description4": "We serve clients across Quebec looking for reliable, full-service renovation and maintenance support — including first-time buyers, senior homeowners, and busy landlords. With GAHQ, you get trustworthy service, transparent pricing, and real peace of mind.",
+          "description5": "Whether you're looking for small improvements or major renovations, GAHQ makes home upgrades stress-free. Our team of certified renovation specialists and maintenance professionals offers everything from minor home repairs to complete remodeling projects. We handle interior renovations, exterior improvements, and custom upgrades with attention to detail and full compliance with Quebec building standards. With flexible property maintenance plans, energy-efficient solutions, and licensed home improvement contractors, GAHQ helps homeowners, landlords, and first-time buyers maintain their homes while increasing long-term value and comfort.",
+          "content1": {
+            "title": "Certified Home Repair Services",
+            "description": "At GAHQ, we deliver certified home repair services with licensed contractors across Quebec. Our team specializes in insurance-approved repairs, including structural damage, roofing, electrical, and plumbing work. Whether you're dealing with post-claim reconstruction or general home improvements, we ensure every job meets provincial building standards and insurer expectations. Our vetted network of insured contractors guarantees quality workmanship, transparency, and clear communication — from estimate to final inspection. Serving homeowners, landlords, and small business owners, GAHQ takes the stress out of finding reliable professionals after a claim."
+          },
+          "content2": {
+            "title": "Maintenance Plans",
+            "description": "Prevent costly emergencies with GAHQ's proactive home maintenance plans designed specifically for Quebec's unique climate. Our seasonal services include roof inspections, gutter cleaning, foundation checks, HVAC tune-ups, and winterization prep — all handled by certified local professionals. Whether you're a homeowner, landlord, or first-time buyer, our preventative maintenance programs help extend the life of your property and reduce the risk of insurance claims. GAHQ makes it easy to stay ahead of seasonal wear and tear with reliable, scheduled upkeep from trusted contractors."
+          },
+          "content3": {
+            "title": "GAHQ Project Hub",
+            "description": "Looking to renovate? Start with the GAHQ Project Hub — your direct line to certified renovation contractors across Quebec. Just share your project goals, and we'll match you with trusted professionals offering the best prices, products, and timelines. Whether you're planning a kitchen remodel, bathroom upgrade, basement finish, or full-home renovation, our portal simplifies the process with vetted experts, transparent quotes, and dedicated project support. No project is too big or too small. Save time, avoid overspending, and get the quality your home deserves."
+          },
+          "content4": {
+            "title": "GAHQ Reno Hotline",
+            "description": "Have a question about home maintenance or renovations? Our Ask an Expert feature connects you directly with certified professionals across Quebec — no appointment needed. Whether you're wondering about seasonal upkeep, minor repairs, renovation costs, or insurance-related damage, our team offers clear, helpful answers you can trust. From first-time homeowners to experienced landlords, GAHQ gives you expert insight without the guesswork. Skip the online forums and DIY confusion — get reliable advice, fast."
+          },
+          "content5": {
+            "title": "GAHQ Exclusive Discounts",
+            "description": "When you become a GAHQ member, you unlock more than just support — you gain access to exclusive discounts from our trusted network of Quebec-based suppliers, home service providers, and renovation partners. From building materials and furniture to contractor rates and home systems, our preferred pricing helps you save on every project. These deals are only available through GAHQ — you won't find them anywhere else online or in-store. Whether you're planning a renovation or ongoing maintenance, membership pays for itself."
+          }
+        }
+      },
+      "member": {
+        "profile": {
+          "title": "Member Profile",
+          "personalInfo": {
+            "title": "Personal Information",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "phone": "Phone Number",
+            "address": "Address"
+          },
+          "accountSettings": {
+            "title": "Account Settings",
+            "changePassword": "Change Password",
+            "notificationPreferences": "Notification Preferences",
+            "privacySettings": "Privacy Settings"
+          },
+          "membership": {
+            "title": "Membership Details",
+            "memberSince": "Member Since",
+            "membershipType": "Membership Type",
+            "status": "Status"
+          },
+          "step1": {
+            "title": "Complete your Member Profile in 3-easy steps.",
+            "progress": {
+              "memberType": "Member Type",
+              "contactDetails": "Contact Details",
+              "businessDetails": "Property Details"
+            },
+            "question": "What type of homeowner are you?",
+            "residential": {
+              "label": "Residential Home Owner",
+              "description": "I own one or multiple homes for my personal use."
+            },
+            "commercial": {
+              "label": "Commercial Property Owner",
+              "description": "I own one or multiple properties used for commercial purposes such as retail sales, rentals, AirBnB etc."
+            },
+            "enterprise": {
+              "label": "Enterprise Property Owner",
+              "description": "I operate a real-estate management company with multiple properties."
+            },
+            "saveAndContinue": "Save & Continue"
+          },
+          "step2": {
+            "title": "Complete your Member Profile in 3-easy steps.",
+            "progress": {
+              "memberType": "Member Type",
+              "contactDetails": "Contact Details",
+              "businessDetails": "Property Details"
+            },
+            "question": "Tell us about yourself.",
+            "salutation": "Salutation",
+            "salutationPlaceholder": "Select salutation",
+            "salutationOptions": {
+              "mr": "Mr.",
+              "mrs": "Mrs.",
+              "ms": "Ms.",
+              "miss": "Miss."
+            },
+            "firstName": "First name",
+            "firstNamePlaceholder": "Enter first name",
+            "lastName": "Last name",
+            "lastNamePlaceholder": "Enter last name",
+            "email": "Email",
+            "emailPlaceholder": "Enter email address",
+            "phone": "Phone",
+            "phonePlaceholder": "Enter phone number",
+            "addressLine1": "Address line 1",
+            "addressLine1Placeholder": "Enter address",
+            "addressLine2": "Address line 2",
+            "addressLine2Placeholder": "Enter address",
+            "city": "City",
+            "cityPlaceholder": "Enter city",
+            "province": "Province/State",
+            "provincePlaceholder": "Select province/state",
+            "country": "Country",
+            "countryPlaceholder": "Select country",
+            "postalCode": "Postal code",
+            "postalCodePlaceholder": "Enter postal code",
+            "isCompany": "This is a company address",
+            "companyName": "Legal Company Name",
+            "companyNamePlaceholder": "Enter Legal Company Name",
+            "back": "Back",
+            "next": "Next",
+            "saveAndContinue": "Save & Continue"
+          },
+          "step3": {
+            "title": "Complete your Member Profile in 3-easy steps.",
+            "progress": {
+              "memberType": "Member Type",
+              "contactDetails": "Contact Details",
+              "businessDetails": "Property Details"
+            },
+            "question": "Tell us about your property.",
+            "description": "Enter details for the property or properties you'll manage with this account. You can start with one and add more later.",
+            "propertyType": "Property type",
+            "propertyTypePlaceholder": "Select property type",
+            "constructionYear": "Construction year",
+            "yearPlaceholder": "Select year",
+            "address": "Address",
+            "addressPlaceholder": "Select address",
+            "billingAddress": "Billing Address",
+            "addNewAddress": "Add New Address",
+            "propertyUsage": "Property usage",
+            "propertyUsagePlaceholder": "Select property usage",
+            "enterNewAddress": "Enter New Address",
+            "addressLine1": "Address Line 1",
+            "addressLine1Placeholder": "Address Line 1",
+            "addressLine2": "Address Line 2",
+            "addressLine2Placeholder": "Address Line 2",
+            "city": "City",
+            "cityPlaceholder": "City",
+            "province": "Province",
+            "provincePlaceholder": "Select province",
+            "postalCode": "Zip/Postal code",
+            "postalCodePlaceholder": "Zip/Postal code",
+            "country": "Country",
+            "countryPlaceholder": "Select country",
+            "optional": "Optional",
+            "addProperty": "Add Property",
+            "noPropertyListed": "No Property Listed",
+            "year": "Year",
+            "deleteProperty": "Delete this property",
+            "back": "Back",
+            "loading": "Loading...",
+            "done": "Done",
+            "duplicatePropertyError": "This property has already been added to the list.",
+            "duplicateAddressError": "This address combination (Address Line 1 + Address Line 2) already exists in your property list.",
+            "addAddressError": "Failed to add address",
+            "loadPropertyError": "Failed to load property details",
+            "propertyDeleted": "Property deleted successfully"
+          },
+          "stepper": {
+            "loading": "Loading...",
+            "errorCheckingProfile": "Error checking profile."
+          },
+          "profileExist": {
+            "title": "Profile Already Exists",
+            "description": "You have already created a member profile. You can access your dashboard to manage your profile.",
+            "info": "If you need to make changes to your profile, please visit your dashboard.",
+            "goToDashboard": "Go to Dashboard"
+          },
+          "profileGuard": {
+            "welcomeTitle": "Welcome to GAHQ!",
+            "memberProfileMessage": "To get started, you'll need to create your Member profile. This will help us personalize your experience and provide you with the right features.",
+            "subscriptionTitle": "Choose Your Plan",
+            "subscriptionMessage": "Your profile is complete! Now select a subscription plan to unlock all GAHQ features and start your journey with us.",
+            "generalProfileMessage": "To get started, you'll need to create your {{role}} profile. This will help us personalize your experience and provide you with the right features.",
+            "returnToLogin": "Return to Login",
+            "completeProfile": "Complete Your Profile",
+            "choosePlan": "Choose Your Plan"
+          },
+          "plans": {
+            "choosePlan": "Choose your plan",
+            "selectMembership": "Select the membership that is right for you.",
+            "loading": "Loading...",
+            "free": "Free",
+            "mostPopular": "Most popular",
+            "billing": "Billing",
+            "taxes": "Taxes",
+            "expiresAfter": "Expires after",
+            "months": "months",
+            "starterDialog": {
+              "title": "Are you sure you want to choose the Starter Plan?",
+              "description": "You could be missing out on thousands in savings this year with our Pro and Platinum plans.",
+              "stickWithStarter": "No, I'll stick with the Starter Plan",
+              "upgradeNow": "Yes, I want to upgrade now!"
+            }
+          },
+          "claimCare": {
+            "loading": "Loading...",
+            "successTitle": "Your ClaimsCare™ request was submitted.",
+            "successDescription": "Your request was well received and someone from our team will contact you shortly to discuss further details.",
+            "okay": "Okay",
+            "nature": "Nature of Request",
+            "naturePlaceholder": "Select request type",
+            "alreadyOpenedClaim": "Already opened a claim with your insurer?",
+            "no": "No",
+            "yes": "Yes",
+            "fileTypeError": "File {{fileName}} is not supported",
+            "whenOpened": "When was this claim opened?",
+            "monthPlaceholder": "Select month",
+            "yearPlaceholder": "Select year",
+            "askQuestion": "Ask your question",
+            "messagePlaceholder": "Message (max: 3000 words)",
+            "uploadDocuments": "Upload your insurance policy & any supporting documents.",
+            "dragAndDrop": "Drag and Drop",
+            "browse": "Browse",
+            "supportedFormat": "Supported Format: PNG, JPG, PDF, DOC or MP4.({{maxSize}}mb each) max file upload up to 10 files",
+            "year": "Year",
+            "back": "Back",
+            "submit": "Submit"
+          },
+          "projectHub": {
+            "progress": {
+              "chooseProperty": "Choose Your Property",
+              "chooseServices": "Choose Your Services",
+              "moreDetails": "More Details"
+            },
+            "title": "Choose your property",
+            "subtitle": "Select the location where the work will be completed",
+            "scrollLeft": "Scroll left",
+            "scrollRight": "Scroll right",
+            "addAddress": "Add Address",
+            "back": "Back",
+            "next": "Next",
+            "requestTitle": "Project Hub Request",
+            "chooseServicesTitle": "Choose your services",
+            "chooseServicesSubtitle": "Please choose all applicable options.",
+            "loading": "Loading...",
+            "selectedCount": "{{count}} selected",
+            "successTitle": "Your Project Hub Request was Submitted.",
+            "successDescription": "Your request was well received and someone from our team will contact you shortly to discuss further details.",
+            "okay": "Okay",
+            "moreDetailsTitle": "Tell us about your project",
+            "moreDetailsSubtitle": "Please provide details about this service request.",
+            "projectCompletion": "Project Completion",
+            "projectCompletionPlaceholder": "When would you like to complete this project?",
+            "contactName": "Contact Name",
+            "contactNamePlaceholder": "Contact Name of the quote (if different)",
+            "message": "Message",
+            "messagePlaceholder": "Message (max 3000 words)",
+            "uploadDocuments": "Upload your documents",
+            "uploadDocumentsSubtitle": "Provide Documents Related to Your Project Request",
+            "clickToUpload": "Click here",
+            "orDrag": "to upload your file or drag (10 files).",
+            "supportedFormat": "Supported Format: PNG, JPG, PDF, DOC or MP4.({{maxSize}}mb each)",
+            "submitting": "Submitting...",
+            "submit": "Submit",
+            "propertyType": "Property type",
+            "propertyTypePlaceholder": "Choose Property Type",
+            "propertyUsage": "Property Usage",
+            "propertyUsagePlaceholder": "Choose Property Usage",
+            "constructionYear": "Construction Year",
+            "constructionYearPlaceholder": "Choose Construction Year",
+            "addressLine1": "Address Line 1",
+            "addressLine1Placeholder": "Enter Address Line 1",
+            "addressLine2": "Address Line 2",
+            "addressLine2Placeholder": "Enter Address Line 2",
+            "city": "City",
+            "cityPlaceholder": "Enter City",
+            "country": "Country",
+            "countryPlaceholder": "Choose Country",
+            "province": "Province",
+            "provincePlaceholder": "Enter Province",
+            "postalCode": "Postal code",
+            "postalCodePlaceholder": "Enter Postal code",
+            "addressAdded": "Address added successfully",
+            "addAddressError": "Failed to add address",
+            "loadPropertyError": "Failed to load property details"
+          },
+          "validation": {
+            "errors": {
+              "propertyTypeRequired": "Property type is required",
+              "propertyUsageRequired": "Property usage is required",
+              "yearRequired": "Year is required",
+              "addressLine1Required": "Address Line 1 is required",
+              "addressLine1MinLength": "Address Line 1 must be at least 5 characters",
+              "addressLine1MaxLength": "Address Line 1 must be at most 100 characters",
+              "addressLine2MinLength": "Address Line 2 must be at least 5 characters",
+              "addressLine2MaxLength": "Address Line 2 must be at most 100 characters",
+              "addressLine2OptionalLength": "Address Line 2 must be 5–100 characters.",
+              "cityRequired": "City is required",
+              "cityMinLength": "City must be at least 5 characters",
+              "cityMaxLength": "City must be at most 50 characters",
+              "provinceRequired": "Province is required",
+              "postalCodeRequired": "Postal code is required",
+              "postalCodeInvalid": "Invalid postal code format (e.g., A1A 1A1)",
+              "countryRequired": "Country is required"
+            },
+            "step2": {
+              "firstNameRequired": "First name is required",
+              "firstNameMinLength": "First name must be at least 2 characters",
+              "firstNameMaxLength": "First name must be at most 50 characters",
+              "lastNameRequired": "Last name is required",
+              "lastNameMinLength": "Last name must be at least 2 characters",
+              "lastNameMaxLength": "Last name must be at most 50 characters",
+              "emailInvalid": "Invalid email address",
+              "phoneRequired": "Phone is required",
+              "phoneDigitsOnly": "Phone number must contain only digits",
+              "phoneLength": "Phone number must be between 10 and 12 digits",
+              "addressLine1MinLength": "Address line 1 must be at least 5 characters",
+              "addressLine1MaxLength": "Address line 1 must be at most 100 characters",
+              "cityRequired": "City is required",
+              "cityMinLength": "City must be at least 5 characters",
+              "cityMaxLength": "City must be at most 50 characters",
+              "provinceRequired": "Province is required",
+              "countryRequired": "Country is required",
+              "postalCodeRequired": "Postal code is required",
+              "postalCodeInvalid": "Invalid postal code format (e.g., A1A 1A1)",
+              "addressLine2OptionalLength": "Address Line 2 must be 5–100 characters.",
+              "salutationRequired": "Salutation is required",
+              "companyNameRequired": "Legal Company Name is required"
+            }
+          }
+        },
+        "renoExpertTips": {
+          "form": {
+            "title": "Ask The Experts Request",
+            "subject": {
+              "label": "Subject",
+              "placeholder": "Specify the subject of your request"
+            },
+            "question": {
+              "label": "Ask your question",
+              "placeholder": "Message (max: 3000 words)"
+            },
+            "files": {
+              "label": "Upload any relevant files for your questions (optional)",
+              "dragDrop": "Drag & Drop",
+              "browse": "Browse",
+              "supportedFormats": "Supported formats: PNG, JPG, PDF, DOC, or MP4 (max 25MB each). You can upload up to 10 files."
+            },
+            "buttons": {
+              "back": "Back",
+              "submit": "Submit your question"
+            }
+          },
+          "validation": {
+            "maxFiles": "You can only upload a maximum of {{maxFiles}} files.",
+            "maxFileSize": "File {{fileName}} exceeds the maximum size of {{maxSize}} MB.",
+            "subjectRequired": "Subject is required",
+            "subjectMinLength": "At least 5 characters for subject is required",
+            "subjectMaxLength": "Subject must be less than 100 characters",
+            "questionRequired": "Question is required",
+            "questionMinLength": "At least 10 characters for question is required",
+            "questionMaxLength": "Question must be less than 3000 characters",
+            "filesMaxLimit": "You can upload a maximum of 10 files"
+          },
+          "dialog": {
+            "success": {
+              "title": "Thank you for submitting your question.",
+              "description": "Your request was well received and someone from our team will contact you shortly to discuss further details.",
+              "button": "Continue"
+            }
+          },
+          "fileUpload": {
+            "size": "{{size}} MB / {{maxSize}}MB",
+            "progress": "{{progress}}%"
+          }
+        },
+        "savingVault": {
+          "tabs": {
+            "existingCoupons": "Your Existing Coupons",
+            "generateCoupons": "Generate New Coupon Codes"
+          },
+          "table": {
+            "columns": {
+              "offerName": "Offer Name",
+              "description": "Other Description",
+              "usageLimit": "Usage Limit",
+              "promoType": "Promo Type",
+              "expiryDate": "Expiry Date"
+            },
+            "recordCount": "{{count}} Exclusive Discounts Found"
+          },
+          "couponCard": {
+            "usageLimit": "Usage Limit: {{limit}}",
+            "expiryDate": "Expiry Date: {{date}}",
+            "uniqueCode": "Unique Coupon Code",
+            "copied": "Copied!"
+          },
+          "buttons": {
+            "generate": "Generate Coupon",
+            "generating": "Generating..."
+          },
+          "messages": {
+            "noCoupons": "No Coupons founds for this user"
+          },
+          "searchAndFilter": {
+            "location": "Location",
+            "category": "Category",
+            "storeType": "Store Type",
+            "search": "Search",
+            "reset": "Reset"
+          }
+        }
+      },
+      "memberDashboard": {
+        "tools": {
+          "renoExpert": {
+            "url": "renoexpert",
+            "title": "Ask The Experts",
+            "description": "Working on a DIY project and have questions? Speak to our Reno experts and get instant answers."
+          },
+          "claimsCare": {
+            "url": "claims-care",
+            "title": {
+              "Free": "Claims Care™ Prestige",
+              "Gratuit": "Claims Care™ Prestige",
+              "Pro": "Claims Care™ Pro",
+              "Platinum": "Claims Care™ Platinum",
+              "Platine": "Claims Care™ Platine"
+            },
+            "description": "Speak to our insurance claim specialists and get instant help navigating any related insurance topic."
+          },
+          "projectHub": {
+            "url": "project-hub",
+            "title": "Projects Hub",
+            "description": "No project is too big or too small. Submit your project and let GAHQ find you certified providers and estimates."
+          },
+          "savingVault": {
+            "url": "discounts-club",
+            "title": "Discounts Club",
+            "description": "Get access to exclusive discounts offered by GAHQ retail & service partners."
+          },
+          "renoRewards": {
+            "url": "gahq-dollars",
+            "title": "GAHQ-Dollars",
+            "description": "Get access to up to $1,000 in GAHQ-Dollars™ just for being a valued member of GAHQ."
+          },
+          "comingSoon": {
+            "title": "Coming Soon",
+            "description": "Stay tuned for new exclusive partner features."
+          }
+        },
+        "upgradeDialog": {
+          "title": "Upgrade Required",
+          "description": "This feature requires a higher membership level to access.",
+          "currentPlan": "Current Plan",
+          "requiredPlan": "Required Plan",
+          "upgradeButton": "Upgrade Plan",
+          "cancelButton": "Maybe Later",
+          "featureAvailable": "This feature is available with our",
+          "planSuffix": "Plan",
+          "upgradeMessage": "Upgrade your membership to unlock this feature and many more benefits!"
+        },
+        "loading": {
+          "text": "Loading..."
+        },
+        "validation": {
+          "claimCare": {
+            "alreadyOpenedClaimRequired": "Already Opened Claim is required",
+            "natureRequired": "Nature of Request is required",
+            "messageRequired": "Message is required",
+            "messageMinLength": "Message must be at least 5 characters long",
+            "messageMaxLength": "Message must be less than 3000 characters",
+            "filesRequired": "Files is Required",
+            "filesMaxLimit": "You can upload a maximum of 10 files",
+            "propertyRequired": "At least one property is required",
+            "monthRequired": "Month is required",
+            "yearRequired": "Year is required",
+            "fileTypeError": "File {{fileName}} is not supported",
+            "maxFilesError": "You can only upload a maximum of {{maxFiles}} files.",
+            "fileSizeError": "File {{fileName}} exceeds the maximum size of {{maxSize}} MB."
+          },
+          "addAddress": {
+            "propertyTypeRequired": "Property type is required",
+            "propertyUsageRequired": "Property usage is required",
+            "constructionYearRequired": "Year is required",
+            "addressLine1MinLength": "Address Line 1 is at least 5 characters",
+            "addressLine1MaxLength": "Address Line 1 is at most 100 characters",
+            "cityRequired": "City is required",
+            "provinceRequired": "Province is required",
+            "countryRequired": "Country is required",
+            "postalCodeRequired": "Postal code is required",
+            "postalCodeInvalid": "Invalid postal code format (e.g., A1A 1A1)"
+          },
+          "projectHub": {
+            "step1": {
+              "propertyRequired": "Please select a property."
+            },
+            "step3": {
+              "projectCompletionRequired": "Project completion date is required",
+              "messageRequired": "Message is required",
+              "messageMinLength": "At least 5 characters for message is required",
+              "messageMaxLength": "Message cannot exceed 3000 characters",
+              "documentRequired": "Document is required",
+              "documentMaxLimit": "You can upload a maximum of 10 files"
+            }
+          }
+        }
+      },
+      "membershipBenefits": {
+        "membershipBenefits": {
+          "hero": {
+            "categoryLabel": "Benefits & Services",
+            "title": "Membership Benefits & Exclusive Support",
+            "description": "Discover all the exclusive benefits and services available to GAHQ members. From project management tools to expert consultations, we provide everything you need for successful home renovations — a tiered support system designed to simplify the process for Quebec homeowners, landlords, renters, and small business owners."
+          },
+          "projectsHub": {
+            "title": "Projects Hub",
+            "description": "Looking to renovate? Start with the GAHQ Project Hub — your direct line to certified renovation contractors across Quebec. Just share your project goals, and we'll match you with trusted professionals offering the best prices, products, and timelines. Whether you're planning a kitchen remodel, bathroom upgrade, basement finish, or full-home renovation, our portal simplifies the process with vetted experts, transparent quotes, and dedicated project support. No project is too big or too small. Save time, avoid overspending, and get the quality your home deserves.",
+            "bridgeDescription": "GAHQ bridges the gap between property owners and certified contractors. Through the Project Hub™, available in Basic, Pro, and Platinum tiers, we review your project, advise you before you start, and support you every step of the way — from initial inspection to contractor coordination.",
+            "guaranteeDescription": "When your property is on the line, the Project Hub™ ensures your project is handled clearly, fairly, and fast — with real experts, not red tape."
+          },
+          "satisfactionGuarantee": {
+            "title": "GAHQ Satisfaction Guarantee",
+            "description": "At GAHQ, your satisfaction is our priority. If you're not fully satisfied with our services, we commit to resolving any issues or disputes to the best of our ability. If we're unable to reach a fair resolution, you may be eligible for a full refund of your membership fee.",
+            "engagementDescription": "Our guarantee isn't automatic — it's based on real engagement and accountability. We stand behind our service, because your trust means everything."
+          },
+          "discountsHub": {
+            "title": "Discounts Hub",
+            "description": "When you become a GAHQ member, you unlock more than just support — you gain access to exclusive discounts from our trusted network of Quebec-based suppliers, home service providers, and renovation partners. From building materials and furniture to contractor rates and home systems, our preferred pricing helps you save on every project. These deals are only available through GAHQ — you won't find them anywhere else online or in-store. Whether you're planning a renovation or ongoing maintenance, membership pays for itself."
+          },
+          "renoRewards": {
+            "title": "GAHQ-Dollars™",
+            "description": "As a GAHQ Prestige member, you deserve more than just support — you deserve real savings. That's why we created GAHQ-Dollars™, an exclusive program that gives you up to $1,000 in annual credit toward any future repair or rebuild projects. It's our way of rewarding your loyalty while helping you protect and grow the value of your property.",
+            "benefitsDescription": "Use your credits to offset labor costs, materials, or bundled service packages — with no paperwork, no points to track — just direct savings that integrate seamlessly with your membership.",
+            "closingDescription": "GAHQ-Dollars™ makes it easier to invest in your home — with benefits that truly pay off."
+          },
+          "askExpert": {
+            "title": "Ask an Expert",
+            "description": "Have a question about home maintenance or renovations? Our Ask an Expert feature connects you directly with certified professionals across Quebec — no appointment needed. Whether you're wondering about seasonal upkeep, minor repairs, renovation costs, or insurance-related damage, our team offers clear, helpful answers you can trust. From first-time homeowners to experienced landlords, GAHQ gives you expert insight without the guesswork. Skip the online forums and DIY confusion — get reliable advice, fast."
+          },
+          "learnMore": "Learn More"
+        }
+      },
+      "ourMembers": {
+        "ourMembers": {
+          "subTitle": "Who We Help",
+          "title": "GAHQ Members & Community Support",
+          "description1": "GAHQ serves a diverse community of property owners, managers, and tenants across Quebec. We provide tailored solutions for every type of member, ensuring everyone gets the support they need.",
+          "description2": "From first-time homeowners to experienced landlords, from small business owners to senior citizens - we understand that each member has unique needs and challenges when it comes to property management, insurance claims, and home maintenance.",
+          "description3": "Our comprehensive support system is designed to simplify the complex world of property ownership and rental management, providing expert guidance every step of the way.",
+          "content1": {
+            "title": "GAHQ is for Homeowners",
+            "description": "For homeowners in Quebec, dealing with home insurance claims, unexpected repairs, or regular maintenance can feel overwhelming. That's where GAHQ comes in. We guide you through every step of the insurance claim process, ensure repairs are completed by certified professionals, and offer seasonal maintenance plans to help you protect your investment long-term. Whether you've experienced water damage, a roof leak, or just want peace of mind, GAHQ provides trusted support tailored to your needs. No more chasing contractors or navigating insurance alone — we're your all-in-one partner in homeownership support."
+          },
+          "content2": {
+            "title": "GAHQ is for landlords",
+            "description": "Managing rental properties comes with its own set of challenges — from unexpected repairs to insurance claim disputes. GAHQ helps landlords across Quebec handle both smoothly. We coordinate tenant-related damage repairs, provide guidance on landlord insurance claims, and connect you with certified contractors who respect your timelines and your budget. Whether you own a single duplex or multiple rental units, our experts help you minimize downtime, maintain property value, and stay compliant with provincial standards. From inspections to emergency repairs, GAHQ is your partner in stress-free property management."
+          },
+          "content3": {
+            "title": "GAHQ is for Small Businesses",
+            "description": "For small business owners in Quebec, protecting your commercial property is critical to staying operational. GAHQ provides expert support for business insurance claims, damage restoration, and preventative maintenance — all handled by licensed professionals. Whether your storefront suffered fire damage, water leaks, or vandalism, we coordinate the entire repair process while communicating directly with your insurer. Our team works quickly to minimize downtime, keep your business safe, and ensure code compliance. With GAHQ, you get fast repairs, clear insurance guidance, and reliable service — so you can stay focused on your business."
+          },
+          "content4": {
+            "title": "GAHQ is for First Time Buyers",
+            "description": "Buying your first home in Quebec can feel overwhelming — especially when it comes to understanding insurance, managing repairs, or choosing reliable contractors. GAHQ simplifies homeownership for first-time buyers with expert advice on insurance coverage, damage claims, maintenance plans, and renovation options. We help you avoid costly mistakes and ensure you're fully supported at every step, from policy questions to post-purchase improvements. No guesswork, no jargon — just honest, practical help designed for new homeowners."
+          },
+          "content5": {
+            "title": "GAHQ is for Renters",
+            "description": "Many renters don't realize they need insurance until it's too late. GAHQ helps Quebec tenants understand their renter's insurance coverage, file damage claims, and request approved repairs from landlords. Whether it's a leak, mold, or fire damage, our advisors help you navigate the process and protect your belongings. We also assist with insurance paperwork and conflict resolution when needed. Renting shouldn't mean being left in the dark — GAHQ ensures you know your rights and get the support you deserve."
+          },
+          "content6": {
+            "title": "GAHQ is for Seniors",
+            "description": "As we age, dealing with insurance, repairs, and renovations can become more challenging. GAHQ provides respectful, step-by-step support tailored for senior homeowners in Quebec. We offer clear assistance with insurance claims, help coordinate trusted repair and maintenance professionals, and specialize in aging-in-place renovations like walk-in showers and safety upgrades. Our team ensures nothing is missed and no one is taken advantage of. Whether you live alone or with family, GAHQ makes homeownership easier, safer, and less stressful for seniors."
+          },
+          "homeowners": {
+            "title": "Homeowners",
+            "description": "Property owners who need reliable maintenance, renovation services, and insurance support for their homes.",
+            "features": {
+              "feature1": "Home maintenance plans",
+              "feature2": "Renovation project management",
+              "feature3": "Insurance claim assistance",
+              "feature4": "Contractor network access"
+            }
+          },
+          "landlords": {
+            "title": "Landlords",
+            "description": "Property managers and landlords who need efficient property management and maintenance services.",
+            "features": {
+              "feature1": "Multi-property management",
+              "feature2": "Tenant-related repairs",
+              "feature3": "Landlord insurance support",
+              "feature4": "Emergency repair services"
+            }
+          },
+          "firstTimeBuyers": {
+            "title": "First-Time Buyers",
+            "description": "New homeowners who need guidance and support for their first property maintenance and renovation projects.",
+            "features": {
+              "feature1": "Home maintenance education",
+              "feature2": "Renovation planning support",
+              "feature3": "Insurance guidance",
+              "feature4": "Budget-friendly solutions"
+            }
+          },
+          "smallBusiness": {
+            "title": "Small Business Owners",
+            "description": "Business owners who need commercial property maintenance and insurance support.",
+            "features": {
+              "feature1": "Commercial property services",
+              "feature2": "Business insurance claims",
+              "feature3": "Emergency repair coordination",
+              "feature4": "Compliance support"
+            }
+          },
+          "renters": {
+            "title": "Renters",
+            "description": "Tenants who need help understanding their rights and navigating rental property issues.",
+            "features": {
+              "feature1": "Renters insurance guidance",
+              "feature2": "Landlord communication support",
+              "feature3": "Damage claim assistance",
+              "feature4": "Tenant rights information"
+            }
+          },
+          "seniors": {
+            "title": "Seniors",
+            "description": "Senior homeowners who need specialized support for aging-in-place modifications and maintenance.",
+            "features": {
+              "feature1": "Aging-in-place modifications",
+              "feature2": "Accessibility improvements",
+              "feature3": "Senior-friendly contractors",
+              "feature4": "Comprehensive support services"
+            }
+          },
+          "stats": {
+            "title": "Our Community in Numbers",
+            "members": "10,000+",
+            "membersLabel": "Active Members",
+            "projects": "5,000+",
+            "projectsLabel": "Projects Completed",
+            "contractors": "500+",
+            "contractorsLabel": "Certified Contractors",
+            "satisfaction": "98%",
+            "satisfactionLabel": "Member Satisfaction"
+          },
+          "cta": {
+            "title": "Join Our Community",
+            "description": "No matter what type of property owner or tenant you are, GAHQ has the services and support you need.",
+            "joinNow": "Join Now",
+            "contactUs": "Contact Us"
+          }
+        }
+      },
+      "partner": {
+        "profile": {
+          "profileExist": {
+            "title": "Profile Already Exists",
+            "description": "You have already created a partner profile. You can access your dashboard to manage your profile.",
+            "additionalInfo": "If you need to make changes to your profile, please visit your dashboard.",
+            "dashboardButton": "Go to Dashboard"
+          },
+          "profileGuard": {
+            "welcomeTitle": "Welcome to GAHQ!",
+            "memberProfileMessage": "To get started, you'll need to create your Member profile. This will help us personalize your experience and provide you with the right features.",
+            "subscriptionTitle": "Choose Your Plan",
+            "subscriptionMessage": "Your profile is complete! Now select a subscription plan to unlock all GAHQ features and start your journey with us.",
+            "generalProfileMessage": "To get started, you'll need to create your {{role}} profile. This will help us personalize your experience and provide you with the right features.",
+            "returnToLogin": "Return to Login",
+            "completeProfile": "Complete Your Profile",
+            "choosePlan": "Choose Your Plan"
+          },
+          "stepper": {
+            "title": "Complete your Partner Profile in 3-easy steps",
+            "step1": "Partner Type",
+            "step2": "Contact Details",
+            "step3": "Business Details",
+            "nextButton": "Save & Continue",
+            "backButton": "Back",
+            "submitButton": "Submit"
+          },
+          "step1": {
+            "title": "Please choose a Partner Type",
+            "description": "Select the type of partnership that best describes your business",
+            "service": {
+              "title": "Service Provider",
+              "description": "I offer specialized renovation services such as plumbers, electricians, roofers or others directly to homeowners"
+            },
+            "retail": {
+              "title": "Retail Partner",
+              "description": "I sell renovation products and would like to promote exclusive offers to GAHQ members"
+            },
+            "contractor": {
+              "title": "General Contractor",
+              "description": "I manage construction projects and coordinate all subcontractors and trades from start to finish"
+            },
+            "validation": {
+              "required": "Please select a partner type"
+            }
+          },
+          "step2": {
+            "title": "Complete your Partner Profile in 3-easy steps.",
+            "subtitle": "Tell us about yourself.",
+            "steps": {
+              "partnerType": "Partner Type",
+              "contactDetails": "Contact Details",
+              "businessDetails": "Business Details"
+            },
+            "form": {
+              "salutation": {
+                "label": "Salutation",
+                "placeholder": "Select salutation",
+                "options": {
+                  "mr": "Mr.",
+                  "mrs": "Mrs.",
+                  "ms": "Ms.",
+                  "miss": "Miss."
+                }
+              },
+              "firstName": {
+                "label": "First name",
+                "placeholder": "Enter first name"
+              },
+              "lastName": {
+                "label": "Last name",
+                "placeholder": "Enter last name"
+              },
+              "email": {
+                "label": "Email",
+                "placeholder": "Enter email address"
+              },
+              "phone": {
+                "label": "Phone",
+                "placeholder": "Enter phone number"
+              },
+              "addressLine1": {
+                "label": "Address line 1",
+                "placeholder": "Enter address"
+              },
+              "addressLine2": {
+                "label": "Address line 2",
+                "placeholder": "Enter address"
+              },
+              "city": {
+                "label": "City",
+                "placeholder": "Enter city"
+              },
+              "country": {
+                "label": "Country",
+                "placeholder": "Select country"
+              },
+              "province": {
+                "label": "Province",
+                "placeholder": "Select province"
+              },
+              "postalCode": {
+                "label": "Postal code",
+                "placeholder": "Enter postal code"
+              },
+              "isCompany": {
+                "label": "This is a company"
+              },
+              "companyName": {
+                "label": "Legal Company Name",
+                "placeholder": "Enter Legal Company Name"
+              }
+            },
+            "buttons": {
+              "back": "Back",
+              "continue": "Save & Continue"
+            }
+          },
+          "step3": {
+            "title": "Complete your Partner Profile in 3-easy steps.",
+            "subtitle": {
+              "retail": "Tell us about your Retail Business",
+              "service": "Tell us about your Service Business",
+              "contractor": "Tell us about your General contractor business."
+            },
+            "form": {
+              "specialty": {
+                "label": "Specialty",
+                "placeholder": "Select Specialty Choose at least 1"
+              },
+              "experience": {
+                "label": "Experience",
+                "placeholder": "Select your years of experience"
+              },
+              "rbqLicense": {
+                "label": "RBQ License",
+                "placeholder": "Enter RBQ License number"
+              },
+              "insurance": {
+                "label": "Insurance Coverage Amount",
+                "placeholder": "Select your coverage amount"
+              },
+              "documents": {
+                "title": "Upload your documents",
+                "description": "Please upload copies of your valid RBQ License and your related, active proof of insurance coverage clearly indicating your total coverage amount.",
+                "uploadText": "Click here to upload your files or drag and drop",
+                "supportedFormats": "Supported formats:",
+                "browseText": "browse",
+                "formatDetails": "PNG, JPG, PDF, DOC, DOCX, MP4 (Max {{maxSize}}MB per file, {{maxFiles}} files max)",
+                "fileSize": "(25MB each, max 10 files)",
+                "required": "At least one document is required.",
+                "errors": {
+                  "fileTooLarge": "File size should not exceed 25MB",
+                  "invalidType": "Only PNG, JPG, PDF, DOC, and MP4 files are allowed",
+                  "uploadError": "Error uploading file"
+                }
+              },
+              "services": {
+                "label": "Select your services",
+                "noServices": "No services available for the selected partner type.",
+                "selectedCount": "selected"
+              }
+            },
+            "buttons": {
+              "back": "Back",
+              "finish": "Save and Finish"
+            }
+          },
+          "categories": {
+            "title": "Select Categories",
+            "searchPlaceholder": "Search categories...",
+            "selected": "Selected Categories",
+            "available": "Available Categories",
+            "maxLimit": "Maximum {{max}} categories can be selected"
+          },
+          "validation": {
+            "step2": {
+              "firstNameRequired": "First name is required",
+              "firstNameMinLength": "First name must be at least 2 characters",
+              "firstNameMaxLength": "First name must be at most 50 characters",
+              "lastNameRequired": "Last name is required",
+              "lastNameMinLength": "Last name must be at least 2 characters",
+              "lastNameMaxLength": "Last name must be at most 50 characters",
+              "emailInvalid": "Invalid email address",
+              "phoneRequired": "Phone is required",
+              "phoneDigitsOnly": "Phone number must contain only digits",
+              "phoneLength": "Phone number must be between 10 and 12 digits",
+              "addressLine1MinLength": "Address line 1 must be at least 5 characters",
+              "addressLine1MaxLength": "Address line 1 must be at most 100 characters",
+              "cityRequired": "City is required",
+              "cityMinLength": "City must be at least 5 characters",
+              "cityMaxLength": "City must be at most 50 characters",
+              "provinceRequired": "Province is required",
+              "countryRequired": "Country is required",
+              "postalCodeRequired": "Postal code is required",
+              "postalCodeInvalid": "Invalid postal code format (e.g., A1A 1A1)",
+              "addressLine2OptionalLength": "Address Line 2 must be 5–100 characters",
+              "salutationRequired": "Salutation is required",
+              "companyNameMinLength": "Legal Company Name must be at least 10 characters",
+              "companyNameMaxLength": "Legal Company Name must be at most 50 characters",
+              "companyNameRequired": "Legal Company Name is required"
+            },
+            "step3": {
+              "specialtyRequired": "Specialty is required",
+              "experienceRequired": "Experience is required",
+              "rbqLicenseRequired": "RBQ License is required",
+              "rbqLicenseMinLength": "RBQ License must be at least 5 characters",
+              "rbqLicenseMaxLength": "RBQ License must be at most 50 characters",
+              "insuranceRequired": "Insurance coverage amount is required",
+              "filesRequired": "Please upload at least one document",
+              "filesMaxLimit": "You can upload a maximum of 10 files",
+              "fileSizeError": "File {{fileName}} exceeds the maximum size of {{maxSize}} MB.",
+              "fileTypeError": "File {{fileName}} has an unsupported format. Please upload PNG, JPG, PDF, DOC, DOCX, or MP4 files.",
+              "maxFilesError": "You can only upload a maximum of {{maxFiles}} files.",
+              "uploadDocumentError": "Please upload at least one document.",
+              "servicesRequired": "Please select at least one service."
+            }
+          }
+        }
+      },
+      "partnerDashboard": {
+        "dashboard": {
+          "url": {
+            "promoBuilder": "/partner/dashboard/promo-builder",
+            "couponLookup": "/partner/dashboard/coupon-lookup"
+          },
+          "promoBuilderTitle": "GAHQ Promo Builder",
+          "promoBuilderDescription": "Create special promotional offers that will be made available exclusively to active GAHQ members.",
+          "couponLookupTitle": "Coupon Lookup Tool",
+          "couponLookupDescription": "Use this tool to lookup and confirm the validity of coupon codes presented to you in store.",
+          "comingSoonTitle": "Coming Soon",
+          "comingSoonDescription": "Stay tuned for new exclusive partner features."
+        },
+        "couponLookup": {
+          "title": "Coupon Lookup Tool",
+          "inputPlaceholder": "Enter coupon code (9 characters)",
+          "searchButton": "Search",
+          "usageLimit": "Usage Limit",
+          "expiryDate": "Expiry Date",
+          "offerTerms": "Offer Terms",
+          "offerTermsText": "Present this coupon code at checkout to receive your discount. Cannot be combined with other offers.",
+          "redeemButton": "Redeem Coupon",
+          "emptyState": "Enter a coupon code above and press search to view promo details.",
+          "loading": "Searching...",
+          "searching": "Searching...",
+          "search": "Search",
+          "redeem": "Redeem Coupon",
+          "redeeming": "Redeeming...",
+          "errorTitle": "Error",
+          "errorDefault": "An error occurred while processing your request",
+          "validation": {
+            "length": "Coupon code must be exactly 9 characters",
+            "alphanumeric": "Coupon code must contain both letters and numbers",
+            "charactersOnly": "Coupon code can only contain letters and numbers"
+          }
+        },
+        "promoBuilder": {
+          "headline": "Promo Headline",
+          "promoType": "Promo Type",
+          "selectPromoType": "Choose Promo Type",
+          "usageLimit": "Coupon Usage Limit per Client",
+          "usageLimitPreview": "Usage Limit",
+          "selectUsageLimit": "Choose Usage Limit",
+          "expiryDate": "Expiry Date",
+          "selectExpiryDate": "Select Expiry Date",
+          "description": "Terms & Conditions",
+          "descriptionLabel": "Description :",
+          "promoValue": "Promo Value",
+          "publish": "Publish",
+          "preview": "Promotion Preview",
+          "previewEmpty": "Added promotion details and view promotions option",
+          "successTitle": "Your GAHQ Promo is Now Live!",
+          "successDescription": "Your Promo \"{{headline}}\" is now live and will become available to GAHQ members shortly.\nYour promo has a usage limit of {{usageLimit}} per member and will be visible to all members until {{expiryDate}} unless removed manually.",
+          "gotIt": "Got it!",
+          "validation": {
+            "headlineRequired": "Promo Headline is required",
+            "headlineMinLength": "Promo Headline must be at least 5 characters",
+            "headlineMaxLength": "Promo Headline must be at most 40 characters",
+            "promoTypeRequired": "Promo Type is required",
+            "promoValueMin": "Promo Value is required",
+            "promoValueMax": "Promo Value must be less than 1000000",
+            "promoValueNumber": "Promo Value must be a number",
+            "percentageValueRange": "Percentage value must be between 0 to 100",
+            "currencyRequired": "Currency is required",
+            "usageLimitRequired": "Usage Limit is required",
+            "descriptionRequired": "Terms & Conditions is required",
+            "descriptionMinLength": "Terms & Conditions must be at least 10 characters",
+            "descriptionMaxLength": "Terms & Conditions cannot exceed 3000 characters",
+            "expiryDateRequired": "Expiry Date is required"
+          }
+        }
+      },
+      "payment": {
+        "payment": {
+          "paymentDetails": {
+            "title": "Payment Details",
+            "subtitle": "Setup your credit or debit card to active your new membership.",
+            "enterCardDetails": "Enter your card details below",
+            "cardNumber": "Card Number",
+            "expiryDate": "Expiry Date",
+            "expiryFormat": "MM/YY",
+            "cvv": "CVV",
+            "enterCvv": "Enter CVV"
+          },
+          "orderSummary": {
+            "totalBeforeTax": "Total before tax",
+            "gstHst": "GST/HST (9.75%)",
+            "pstQst": "PST/QST (5%)",
+            "grandTotal": "Grand Total"
+          },
+          "terms": "By clicking \"Process Payment\" you agree to our Terms of Use and Privacy Policy. GAHQ will renew your membership annually at $199.99/year (plus applicable taxes) until you cancel. Cancel anytime from your account by selecting \"Cancel Membership.\"",
+          "buttons": {
+            "changePlan": "Change plan",
+            "processPayment": "Process Payment"
+          },
+          "paymentResult": {
+            "success": {
+              "congratulations": "CONGRATULATIONS!",
+              "firstStep": "You've just taken your first step toward simplified homeownership.",
+              "membershipActive": "Your new membership is now active and ready to use.",
+              "getStarted": "Click \"Take me to the Member Area\" below to get started.",
+              "viewReceipt": "View Receipt",
+              "takeToMemberArea": "Take me to the Member Area",
+              "loading": "Loading..."
+            },
+            "failure": {
+              "title": "Oops, something went wrong.",
+              "message": "Your transaction was not approved. Please double-check your payment details and try again",
+              "tryAgain": "Try again"
+            }
+          }
+        }
+      },
+      "pricing": {
+        "pricing": {
+          "title": "Simple, Transparent Pricing",
+          "description": "Choose the plan that best fits your needs. All plans include our core services with additional features as you upgrade.",
+          "mostPopular": "MOST POPULAR",
+          "plans": {
+            "starter": {
+              "name": "STARTER PLAN",
+              "price": "Free",
+              "description": "What's included:",
+              "features": {
+                "feature3": "Weekly GAHQ Newsletter",
+                "feature4": "Unlimited Reno Hotline Access",
+                "feature2": "Claims Care TM Essentials",
+                "feature5": "Unlimited Project Hub Access",
+                "feature1": "5% Off Home Projects"
+              },
+              "button": "CHOOSE GAHQ ESSENTIALS"
+            },
+            "pro": {
+              "name": "GAHQ PRO PLAN",
+              "price": "$149.99",
+              "period": "/Yearly",
+              "description": "Includes everything in the Starter Plan, Plus",
+              "features": {
+                "feature4": "ClaimsCare™ Pro",
+                "feature1": "10% off Home Projects",
+                "feature2": "Priority Support & Services",
+                "feature3": "100% Satisfaction Guarantee"
+              },
+              "button": "CHOOSE GAHQ PRO"
+            },
+            "platinum": {
+              "name": "GAHQ PLANTIUM PLAN",
+              "price": "$199.99",
+              "period": "/Yearly",
+              "description": "Includes everything in the Pro Plan, Plus",
+              "features": {
+                "feature1": "ClaimsCare™ PRESTIGE",
+                "feature2": "12% off Home Projects",
+                "feature3": "$1,000 Cashback in Yearly Maintenance Credits",
+                "feature4": "Unlimited Access to the Discounts Hub",
+                "feature5": "Priority Support & VIP Services",
+                "feature6": "100% Satisfaction Guarantee"
+              },
+              "button": "CHOOSE GAHQ PLATINUM"
+            }
+          },
+          "faq": {
+            "title": "Frequently Asked Questions",
+            "question1": "Can I change my plan anytime?",
+            "answer1": "Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle.",
+            "question2": "Is there a free trial?",
+            "answer2": "Yes, we offer a 30-day free trial for all paid plans. You can cancel anytime during the trial period.",
+            "question3": "What payment methods do you accept?",
+            "answer3": "We accept all major credit cards, debit cards, and PayPal. All payments are processed securely.",
+            "question4": "Can I cancel my subscription?",
+            "answer4": "Yes, you can cancel your subscription at any time from your account settings. No cancellation fees apply."
+          }
+        }
+      },
+      "settings": {
+        "settings": {
+          "title": "Settings",
+          "menu": "Settings Menu",
+          "saving": "Saving changes",
+          "language": {
+            "title": "Language Settings",
+            "interfaceLanguage": {
+              "title": "Interface Language",
+              "description": "Choose the language for menus, buttons, and other interface elements",
+              "english": "English",
+              "french": "French"
+            },
+            "applicationLanguage": "Application Language",
+            "selectLanguage": "Select Language",
+            "apply": "Apply Changes",
+            "currentLanguage": "Current Language",
+            "reloadDialog": {
+              "title": "Language Updated Successfully! 🎉",
+              "description": "To fully apply the language changes throughout the entire application, please reload the page. This will ensure all interface elements display in your selected language.",
+              "button": "Reload Page"
+            }
+          },
+          "notifications": {
+            "title": "Notifications",
+            "accountTitle": "Account notifications",
+            "accountDesc": "We will send you notifications to inform you of any updates and/or changes as events occur for you or your business. Select which notifications you want to receive below:",
+            "accounting": "Accounting",
+            "accountingDesc": "When accounting and bookkeeping transactions need your attention.",
+            "sales": "Sales",
+            "salesDesc": "When relevant sales-related activity occurs such as when an invoice is overdue.",
+            "payments": "Payments",
+            "paymentsDesc": "When you've been paid or need to be notified to keep your payments operating.",
+            "purchases": "Purchases",
+            "purchasesDesc": "When receipt exports are ready and when receipts you've emailed need to be posted into accounting.",
+            "bills": "Bills",
+            "billsDesc": "When you need to be reminded of upcoming and/or late bills.",
+            "pushTimeout": "Push Notification Time-out",
+            "timeoutOption": "{{value}}"
+          },
+          "appearance": {
+            "title": "Appearance",
+            "theme": "Theme",
+            "darkMode": "Dark Mode",
+            "lightMode": "Light Mode"
+          }
+        }
+      },
+      "sidebar": {
+        "partner": {
+          "navMain": {
+            "dashboard": "Dashboard",
+            "usersOffers": "User Offers",
+            "settings": "Settings",
+            "helpSupport": "Help & Support"
+          },
+          "logout": {
+            "title": "Confirm Logout",
+            "description": "Are you sure you want to logout? You will need to login again to access your account.",
+            "cancel": "Cancel",
+            "confirm": "Logout"
+          },
+          "partner": {
+            "url": {
+              "dashboard": "/partner/dashboard",
+              "usersOffers": "/partner/users-offers",
+              "settings": "/partner/settings",
+              "help": "/partner/help"
+            }
+          }
+        },
+        "sidebar": {
+          "dashboard": "Dashboard",
+          "subscription": "Your Subscription",
+          "settings": "Settings",
+          "help_&_support": "Help & Support",
+          "users_offers": "User Offers",
+          "member": {
+            "url": {
+              "dashboard": "/member/dashboard",
+              "subscription": "/member/subscription",
+              "settings": "/member/settings",
+              "help": "/member/help"
+            }
+          }
+        }
+      },
+      "subscriptions": {
+        "subscriptions": {
+          "title": "Subscription",
+          "status": {
+            "active": "Active",
+            "inactive": "Inactive",
+            "expired": "Expired"
+          },
+          "loading": "Loading...",
+          "noSubscription": "No Active Subscription",
+          "noSubscriptionDesc": "You don't have an active subscription yet.",
+          "choosePlan": "Choose a Plan",
+          "contactUs": "Contact us",
+          "changePlan": "Change plan",
+          "subscription": "Subscription",
+          "users": "Users",
+          "monthlyOrdersLimit": "Monthly Orders Limit",
+          "planCost": "Plan Cost",
+          "renewalDate": "Renewal Date",
+          "upgradeTitle": "Upgrade and get more out of GAHQ",
+          "billMonthly": "monthly",
+          "billYearly": {
+            "monthly": "monthly",
+            "yearly": "yearly"
+          },
+          "monthlyActiveUsers": "Monthly active users",
+          "currentPlanDetails": "Current Plan Details",
+          "planFeatures": "Plan Features",
+          "upgradePlan": "Upgrade Plan",
+          "subscriptionInfo": "Subscription Information",
+          "subscriptionType": "Subscription Type",
+          "billingCycle": "Billing Cycle",
+          "currency": "Currency",
+          "nextRenewal": "Next Renewal",
+          "mostPopular": "Most popular",
+          "year": "year",
+          "month": "month",
+          "perUserMonth": "per user/month, billed annually",
+          "upgradeToplan": "Upgrade to plan",
+          "enterprise": "Enterprise",
+          "customizableUserLimits": "Customizable user limits",
+          "dedicatedAccountManager": "Dedicated account manager",
+          "advancedManagementTools": "Advanced management tools",
+          "prioritySupport": "24/7 priority support",
+          "contactSales": "Contact sales",
+          "forLargeOrganizations": "For large organizations",
+          "currentPlan": {
+            "title": "Current Plan",
+            "status": "Status",
+            "renewalDate": "Renewal Date",
+            "cancel": "Cancel Subscription"
+          },
+          "plans": {
+            "basic": {
+              "title": "Basic Plan",
+              "price": "Free",
+              "features": [
+                "Basic Service Access",
+                "Email Support",
+                "Community Forum Access"
+              ]
+            },
+            "premium": {
+              "title": "Premium Plan",
+              "price": "$9.99/month",
+              "features": [
+                "Priority Service Access",
+                "24/7 Phone Support",
+                "Insurance Claims Assistance",
+                "Contractor Network Access"
+              ]
+            },
+            "business": {
+              "title": "Business Plan",
+              "price": "$29.99/month",
+              "features": [
+                "All Premium Features",
+                "Multiple Property Management",
+                "Dedicated Account Manager",
+                "Custom Service Packages"
+              ]
+            }
+          },
+          "actions": {
+            "subscribe": "Subscribe Now",
+            "upgrade": "Upgrade Plan",
+            "downgrade": "Downgrade Plan",
+            "cancel": "Cancel Subscription"
+          },
+          "billing": {
+            "title": "Billing Information",
+            "paymentMethod": "Payment Method",
+            "nextBilling": "Next Billing Date",
+            "updatePayment": "Update Payment Method"
+          },
+          "comingSoon": "This page will be available soon."
+        }
+      },
+      "userOffers": {
+        "title": "User Offers",
+        "loading": "Loading offers...",
+        "noOffers": "No Offers Available",
+        "noOffersDesc": "You don't have any offers at the moment.",
+        "offersFound": "offers found",
+        "offerHeadline": "Offer Headline",
+        "users": "Users",
+        "userCount": "user",
+        "userCountPlural": "users",
+        "viewDetails": "View Details",
+        "offerDetails": "Offer Details",
+        "offerId": "Offer ID",
+        "assignedUsers": "Assigned Users",
+        "actions": "Actions",
+        "email": "Email",
+        "userId": "User ID",
+        "backToOffers": "Back to Offers"
+      },
+      "whoWeHelp": {
+        "smallTitle": "Who we help",
+        "title": "Who can become a GAHQ member?",
+        "description": "GAHQ membership is open to anyone in Quebec looking for expert support with property maintenance, renovations, or insurance claims. Whether you own one property or manage dozens, whether you're renting, buying your first home, or planning upgrades — we're here to help. Our services are designed for homeowners, first-time buyers, renters, landlords, and commercial property owners. If you value reliable contractors, insurance expertise, and stress-free home management, GAHQ is for you. Join thousands of members across Quebec who count on us for professional support and exclusive benefits.",
+        "homeowners": {
+          "title": "GAHQ is for Homeowners",
+          "linkId": "homeowners",
+          "description": "For homeowners in Quebec, dealing with home insurance claims, unexpected repairs, or regular maintenance can feel overwhelming. That's where GAHQ comes in. We guide you through every step of the insurance claim process, ensure repairs are completed by certified professionals, and offer seasonal maintenance plans to help you protect your investment long-term. Whether you've experienced water damage, a roof leak, or just want peace of mind, GAHQ provides trusted support tailored to your needs. No more chasing contractors or navigating insurance alone — we're your all-in-one partner in homeownership support."
+        },
+        "landlords": {
+          "linkId": "landlords",
+          "title": "GAHQ is for landlords",
+          "description": "Managing rental properties comes with its own set of challenges — from unexpected repairs to insurance claim disputes. GAHQ helps landlords across Quebec handle both smoothly. We coordinate tenant-related damage repairs, provide guidance on landlord insurance claims, and connect you with certified contractors who respect your timelines and your budget. Whether you own a single duplex or multiple rental units, our experts help you minimize downtime, maintain property value, and stay compliant with provincial standards. From inspections to emergency repairs, GAHQ is your partner in stress-free property management."
+        },
+        "smallBusiness": {
+          "linkId": "small-businesses",
+          "title": "GAHQ is for Small Businesses",
+          "description": "For small business owners in Quebec, protecting your commercial property is critical to staying operational. GAHQ provides expert support for business insurance claims, damage restoration, and preventative maintenance — all handled by licensed professionals. Whether your storefront suffered fire damage, water leaks, or vandalism, we coordinate the entire repair process while communicating directly with your insurer. Our team works quickly to minimize downtime, keep your business safe, and ensure code compliance. With GAHQ, you get fast repairs, clear insurance guidance, and reliable service — so you can stay focused on your business."
+        },
+        "firstTimeBuyers": {
+          "linkId": "first-time-buyers",
+          "title": "GAHQ is for First Time Buyers",
+          "description": "Buying your first home in Quebec can feel overwhelming — especially when it comes to understanding insurance, managing repairs, or choosing reliable contractors. GAHQ simplifies homeownership for first-time buyers with expert advice on insurance coverage, damage claims, maintenance plans, and renovation options. We help you avoid costly mistakes and ensure you're fully supported at every step, from policy questions to post-purchase improvements. No guesswork, no jargon — just honest, practical help designed for new homeowners."
+        },
+        "renters": {
+          "linkId": "renters",
+          "title": "GAHQ is for Renters",
+          "description": "Many renters don't realize they need insurance until it's too late. GAHQ helps Quebec tenants understand their renter's insurance coverage, file damage claims, and request approved repairs from landlords. Whether it's a leak, mold, or fire damage, our advisors help you navigate the process and protect your belongings. We also assist with insurance paperwork and conflict resolution when needed. Renting shouldn't mean being left in the dark — GAHQ ensures you know your rights and get the support you deserve."
+        },
+        "seniors": {
+          "linkId": "seniors",
+          "title": "GAHQ is for Seniors",
+          "description": "As we age, dealing with insurance, repairs, and renovations can become more challenging. GAHQ provides respectful, step-by-step support tailored for senior homeowners in Quebec. We offer clear assistance with insurance claims, help coordinate trusted repair and maintenance professionals, and specialize in aging-in-place renovations like walk-in showers and safety upgrades. Our team ensures nothing is missed and no one is taken advantage of. Whether you live alone or with family, GAHQ makes homeownership easier, safer, and less stressful for seniors."
+        }
+      }
+} 
